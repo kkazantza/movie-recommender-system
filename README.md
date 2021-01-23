@@ -25,4 +25,5 @@ The goal of this project is to create a recommender system which helps users fin
 1. Recompute the features for all the users for the movies that have not seen - rated.
 2. Predict Serendipity for all possible (user, movie) pairs by using the two candidate models as in training phase, Logistic Regression and Random Forest model.
 3. Optimization
+
    The goal is to maximize the total average serendipity to users.
