@@ -28,7 +28,7 @@ The goal of this project is to create a recommender system which helps users fin
 
    The goal is to maximize the total average serendipity to users.
    
- ### Indicative Results of the 
+ ### Indicative Results of the Recommender System
  
 Below we examine a user of the discrete and continuous case and present the movies that they have already rated and the movies that the recommender system has proposed as a result of increasing serendipity parameters(Ls, θ):
 
