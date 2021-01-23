@@ -27,3 +27,33 @@ The goal of this project is to create a recommender system which helps users fin
 3. Optimization
 
    The goal is to maximize the total average serendipity to users.
+   
+ ### Indicative Results of the 
+ 
+Below we examine a user of the discrete and continuous case and present the movies that they have already rated and the movies that the recommender system has proposed as a result of increasing serendipity parameters(Ls, θ):
+
+**User id=101263**
+
+* Ls=2, theta=1, x Boolean, dij=0
+
+| Rated movie ids | Recommended movie ids |
+| ------ | ------ |
+| 165347(Thriller,Action,Crime,Drama,Mystery) | 109633 (Animation,Romance) |
+| 162602 (Thriller) | 1214 (Horror,Sci-Fi) |
+
+* Ls=3, theta=8, x continuous (dij=0)
+
+| Rated movie ids | Recommended movie ids |
+|---|---|
+| 165347(Thriller,Action,Crime,Drama,Mystery) | 2804 (Children,Comedy) |
+| 162602 (Thriller) | 109633 (Animation,Romance) |
+
+* Ls=4, theta=14, x Boolean (dij <>0)
+
+| Rated movie ids | Recommended movie ids |
+|---|---|
+| 165347(Thriller,Action,Crime,Drama,Mystery) | 109633 (Animation,Romance) |
+| 162602 (Thriller) | 1214 (Horror,Sci-Fi) |
+
+
+We observe that the recommender system suggests movies that are different to the movies users have already rated. Also we can confirm that among the recommender systems the results agree. 
